@@ -28,3 +28,24 @@ h1{
 header p{
     font-size: 22px;
 }
+
+/* Main */
+
+
+.conteiner{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.item{
+    margin: 20px;
+    width: calc(100% / 3 - 40px);
+}
+
+.box{
+    background-color: black;
+    height: 130px;
+
+}
