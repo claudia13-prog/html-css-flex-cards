@@ -77,3 +77,24 @@ a{
 .photo img{
     height: 100%;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1750px) {
+    
+    .item{
+        width: calc(100% / 2 - 40px);
+    }
+
+
+}
+
+
+@media screen and (max-width: 1190px) {
+    
+    .item{
+        width: calc(100% / 1 - 40px);
+    }
+
+
+}
