@@ -48,5 +48,31 @@ header p{
 .box{
     background-color: black;
     height: 130px;
+    display: flex;
+    align-items: center;
+}
 
+.box .photo{
+    height: 100%;
+}
+
+.box .references{
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.name{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(128, 210, 245);
+}
+
+.photo img{
+    height: 100%;
 }
